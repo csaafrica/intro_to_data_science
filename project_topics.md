@@ -1,20 +1,22 @@
 # CSA 2025 Data Science Project Topics
 
+**Expected Deliverables for All Projects**: A report outlining the problem, what was done and why, data sources used, technical details of analysis/modelling (e.g. models used and why), results and interpretation of the results, recommendations for action, limitations of current work and expectations for future work.
+
 ## Project 1: Agricultural Productivity & Climate Resilience Dashboard
 
 **Problem Statement:** Climate change threatens food security across East Africa. 
 Analyze how weather patterns affect crop yields and identify resilient farming regions.
 
 **Data Sources:**
-- FAOSTAT (crop production data): https://www.fao.org/faostat/
-- Climate Hazards Group (CHIRPS rainfall): https://www.chc.ucsb.edu/data/chirps
-- World Bank Climate Change Knowledge Portal
+- FAOSTAT (crop production data): [crop production data](https://www.fao.org/faostat/)
+- Climate Hazards Group (CHIRPS rainfall): [CHIRPS rainfall](https://www.chc.ucsb.edu/data/chirps)
+- World Bank Climate Change Knowledge Portal: [Climate Change Data](https://data.worldbank.org/topic/19)
 
 **Deliverables:**
 1. Interactive dashboard showing crop yield trends vs rainfall patterns (2000-2023)
 2. Regression model predicting maize/wheat yields based on precipitation and temperature
 3. Risk map identifying climate-vulnerable agricultural regions
-4. 5-page report with recommendations for climate adaptation
+4. Technical report (see above).
 
 **Technical Requirements:**
 - Use pandas for merging climate and crop data
@@ -29,15 +31,15 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 **Problem Statement:** Identify underserved populations and predict healthcare access challenges to guide health facility placement.
 
 **Data Sources:**
-- DHS Program StatCompiler: https://www.statcompiler.com/
-- WHO Global Health Observatory
+- DHS Program StatCompiler: [DHS Program StatCompiler](https://www.statcompiler.com/)
+- WHO Global Health Observatory: [Data portal](https://www.who.int/data)
 - OpenStreetMap (health facility locations via Overpass API)
 
 **Deliverables:**
 1. Healthcare access score for each region (combining distance, facility density, health outcomes)
 2. Classification model predicting low/medium/high healthcare access
 3. Interactive map showing healthcare deserts
-4. Policy brief on optimal locations for new health facilities
+4. Technical report/policy brief on optimal locations for new health facilities
 
 **Technical Requirements:**
 - Calculate distance matrices using geopy
@@ -52,15 +54,15 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 **Problem Statement:** Despite M-Pesa's success, financial exclusion persists. Identify barriers and predict adoption likelihood.
 
 **Data Sources:**
-- World Bank Global Findex Database (2011-2021)
-- GSMA Mobile Money Deployment Tracker
-- FinAccess Household Survey (Kenya)
+- World Bank Global Findex Database (2011-2021): [Database](https://www.worldbank.org/en/publication/globalfindex)
+- GSMA Mobile Money Deployment Tracker: [GSMA website](https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-for-development/m4d-tracker/mobile-money-deployment-tracker/)
+- FinAccess Household Survey (Kenya): [Report](https://www.centralbank.go.ke/wp-content/uploads/2024/12/2024-FINACCESS-HOUSEHOLD-SURVEY-MAIN-REPORT.pdf)
 
 **Deliverables:**
 1. Time series visualization of mobile money adoption across East Africa
 2. Classification model predicting mobile money usage
 3. Barrier analysis dashboard (age, gender, education, rural/urban)
-4. Actionable recommendations for increasing adoption
+4. Technical report and actionable recommendations for increasing adoption
 
 **Technical Requirements:**
 - Handle missing data using appropriate imputation
@@ -70,20 +72,20 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 
 ---
 
-## Project 4: Education Quality & Outcome Predictor
+## Project 4: Education Quality and Outcome Predictor
 
 **Problem Statement:** Education quality varies drastically. Predict student performance and identify factors affecting learning outcomes.
 
 **Data Sources:**
-- UNESCO Institute for Statistics: http://data.uis.unesco.org/
-- Kenya Open Data (KCPE/KCSE results)
-- DHS Education Data
+- UNESCO Institute for Statistics: [website](http://data.uis.unesco.org/)
+- Kenya Open Data (KCPE/KCSE results): [Kenya data portal](https://kenya.opendataforafrica.org)
+- DHS Education Data: [Data](https://dhsprogram.com/data/)
 
 **Deliverables:**
 1. School performance dashboard by county/region
 2. Regression model predicting exam scores based on school resources
 3. Gender disparity analysis in STEM subjects
-4. Intervention priority matrix for education officials
+4. Technical report/intervention priority matrix for education officials
 
 **Technical Requirements:**
 - Web scraping for exam results (BeautifulSoup)
@@ -95,11 +97,11 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 
 ## Project 5: Urban Air Quality Health Impact Assessor
 
-**Problem Statement:** Air pollution in Nairobi, Kampala, and Addis Ababa causes significant health issues. Quantify the impact and predict high-risk areas.
+**Problem Statement:** Air pollution in Nairobi, Kampala, and Dodoma causes significant health issues. Quantify the impact and predict high-risk areas. Start with Nairobi.
 
 **Data Sources:**
-- OpenAQ API (real-time air quality): https://openaq.org/
-- WHO Ambient Air Quality Database
+- OpenAQ API (real-time air quality): [Website](https://openaq.org/)
+- WHO Ambient Air Quality Database: [Link](https://www.who.int/data/gho/data/themes/air-pollution/who-air-quality-database)
 - Local health ministry respiratory disease statistics
 
 **Deliverables:**
@@ -116,36 +118,13 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 
 ---
 
-## Project 6: Youth Employment Opportunity Mapper
-
-**Problem Statement:** Youth unemployment exceeds 20% in many regions. Match skills with opportunities and predict employment success.
-
-**Data Sources:**
-- ILO ILOSTAT: https://ilostat.ilo.org/
-- LinkedIn Economic Graph (aggregated data)
-- National employment surveys
-
-**Deliverables:**
-1. Skills gap analysis dashboard
-2. Job matching algorithm (classification model)
-3. Regional employment heat map
-4. Youth employment strategy recommendations
-
-**Technical Requirements:**
-- Natural language processing for job descriptions
-- Implement k-NN and SVM classifiers
-- Create network graphs of skills-jobs relationships
-- A/B testing framework for intervention strategies
-
----
-
-## Project 7: Climate-Smart Agriculture Recommender
+## Project 6: Climate-Smart Agriculture Recommender
 
 **Problem Statement:** Farmers need guidance on crop selection as climate patterns shift. Build a recommendation system for climate-appropriate crops.
 
 **Data Sources:**
-- FAO Global Agro-Ecological Zones
-- Climate.gov historical weather data
+- FAO Global Agro-Ecological Zones: [Data portal](https://gaez.fao.org)
+- Climate.gov historical weather data: [NOAA data portal](https://www.climate.gov/maps-data/dataset/past-weather-zip-code-data-table)
 - Market price data from regional commodity exchanges
 
 **Deliverables:**
@@ -153,6 +132,7 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 2. Recommendation engine for crop selection
 3. Profit optimization model including climate risk
 4. Farmer decision-support tool prototype
+5. Technical report
 
 **Technical Requirements:**
 - Implement collaborative filtering for recommendations
@@ -162,20 +142,21 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 
 ---
 
-## Project 8: Maternal & Child Health Risk Stratification
+## Project 7: Maternal and Child Health Risk Stratification
 
 **Problem Statement:** Reduce maternal and infant mortality by identifying high-risk pregnancies early.
 
 **Data Sources:**
-- DHS Program (detailed health surveys)
-- WHO Global Health Observatory
-- UNICEF Data Warehouse
+- DHS Program (detailed health surveys): [Data portal](https://dhsprogram.com/data/)
+- WHO Global Health Observatory: [Data portal](https://www.who.int/data)
+- UNICEF Data Warehouse: [Data warehouse](https://data.unicef.org/resources/data_explorer/unicef_f/)
 
 **Deliverables:**
 1. Risk scoring algorithm for pregnant women
 2. Predictive model for adverse outcomes
 3. Resource allocation optimizer for health facilities
 4. Mobile-friendly risk assessment tool design
+5. Technical report
 
 **Technical Requirements:**
 - Handle class imbalance with SMOTE
@@ -185,54 +166,33 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 
 ---
 
-## Project 9: Infrastructure Investment Prioritization Model
-
-**Problem Statement:** Limited budgets require smart infrastructure investments. Prioritize projects with maximum development impact.
-
-**Data Sources:**
-- World Bank Infrastructure Database
-- OpenStreetMap (via Overpass API)
-- AfDB Infrastructure Development Index
-
-**Deliverables:**
-1. Infrastructure deficit analysis by region
-2. Economic impact prediction model
-3. Investment prioritization algorithm
-4. Interactive scenario planning tool
-
-**Technical Requirements:**
-- Graph analysis for transport networks
-- Multi-criteria decision analysis (MCDA)
-- Linear programming for budget optimization
-- Sensitivity analysis for recommendations
-
----
-
-## Project 10: Food Security Early Warning System
+## Project 8: Food Security Early Warning System
 
 **Problem Statement:** Predict food crises before they occur to enable timely interventions.
 
 **Data Sources:**
-- FEWS NET Data Portal
-- FAO Food Price Monitoring
-- ACLED Conflict Data
-- CHIRPS Rainfall Data
+- FEWS NET Data Portal: 
+- FAO Food Price Monitoring: 
+- ACLED Conflict Data: 
+- CHIRPS Rainfall Data: [Portal](https://www.chc.ucsb.edu/data/chirps)
 
 **Deliverables:**
 1. Food security risk dashboard with 3-month predictions
 2. Multi-class classification model (secure/stressed/crisis/emergency)
 3. Alert system design with trigger thresholds
 4. Intervention effectiveness analyzer
+5. Technical report
+
 
 **Technical Requirements:**
-- Implement time-lagged features
-- Use LSTM or gradient boosting for prediction
+- Implement time-lagged features (rainfall, prices, conflict events)
+- Use Random Forest or XGBoost for classification
 - Create automated alert generation
 - Design evaluation metrics for early warning systems
 
 ---
 
-## Project 11: Renewable Energy Potential Analyzer
+## Project 9: Renewable Energy Potential Analyzer
 
 **Problem Statement:** Accelerate renewable energy adoption by identifying high-potential locations and predicting project success.
 
@@ -255,7 +215,7 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 
 ---
 
-## Project 12: Digital Economy Growth Tracker
+## Project 10: Digital Economy Growth Tracker
 
 **Problem Statement:** The digital economy drives growth but develops unevenly. Track progress and predict digital transformation success.
 
@@ -281,12 +241,6 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 
 ## General Project Guidelines
 
-**Each team should:**
-1. Spend Day 1 on data collection, cleaning, and EDA
-2. Days 2-3 on modeling and analysis
-3. Day 4 on visualization and dashboard creation
-4. Day 5 on report writing and presentation prep
-
 **Required Python Libraries:**
 - Data manipulation: pandas, numpy
 - Visualization: matplotlib, seaborn, plotly, folium
@@ -298,4 +252,4 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 - Data quality and preprocessing (25%)
 - Model performance and validation (25%)
 - Visualization quality and insights (25%)
-- Real-world applicability and recommendations (25%)
+- Report: real-world understanding of the problem, applicability within a local context and recommendations (25%)
