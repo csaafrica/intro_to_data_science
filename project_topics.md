@@ -2,7 +2,7 @@
 
 **Expected Deliverables for All Projects**: A report outlining the problem, what was done and why, data sources used, technical details of analysis/modelling (e.g. models used and why), results and interpretation of the results, recommendations for action, limitations of current work and expectations for future work.
 
-## Project 1: Agricultural Productivity and Climate Resilience Dashboard
+## Project 1: Agricultural Productivity and Climate Resilience Dashboard [Group 6]
 
 **Problem Statement:** Climate change threatens food security across East Africa. 
 Analyze how weather patterns affect crop yields and identify resilient farming regions.
@@ -26,7 +26,7 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 
 ---
 
-## Project 2: Healthcare Access Inequality Predictor
+## Project 2: Healthcare Access Inequality Predictor [Group 1]
 
 **Problem Statement:** Identify underserved populations and predict healthcare access challenges to guide health facility placement.
 
@@ -49,7 +49,7 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 
 ---
 
-## Project 3: Mobile Money Financial Inclusion Analyzer
+## Project 3: Mobile Money Financial Inclusion Analyzer [Groups 7, 10]
 
 **Problem Statement:** Despite M-Pesa's success, financial exclusion persists. Identify barriers and predict adoption likelihood.
 
@@ -72,7 +72,7 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 
 ---
 
-## Project 4: Education Quality and Outcome Predictor
+## Project 4: Education Quality and Outcome Predictor [Groups 9, 15]
 
 **Problem Statement:** Education quality varies drastically. Predict student performance and identify factors affecting learning outcomes.
 
@@ -118,7 +118,7 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 
 ---
 
-## Project 6: Climate-Smart Agriculture Recommender
+## Project 6: Climate-Smart Agriculture Recommender [Groups 4, 11]
 
 **Problem Statement:** Farmers need guidance on crop selection as climate patterns shift. Build a recommendation system for climate-appropriate crops.
 
@@ -142,7 +142,7 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 
 ---
 
-## Project 7: Maternal and Child Health Risk Stratification
+## Project 7: Maternal and Child Health Risk Stratification [Group 13]
 
 **Problem Statement:** Reduce maternal and infant mortality by identifying high-risk pregnancies early.
 
@@ -166,7 +166,7 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 
 ---
 
-## Project 8: Food Security Early Warning System
+## Project 8: Food Security Early Warning System [Groups 8, 17]
 
 **Problem Statement:** Predict food crises before they occur to enable timely interventions.
 
@@ -192,7 +192,7 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 
 ---
 
-## Project 9: Renewable Energy Potential Analyzer
+## Project 9: Renewable Energy Potential Analyzer [Group 12]
 
 **Problem Statement:** Accelerate renewable energy adoption by identifying high-potential locations and predicting project success.
 
@@ -215,7 +215,7 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 
 ---
 
-## Project 10: Digital Economy Growth Tracker
+## Project 10: Digital Economy Growth Tracker [Group 2]
 
 **Problem Statement:** The digital economy drives growth but develops unevenly. Track progress and predict digital transformation success.
 
