@@ -2,7 +2,7 @@
 
 **Expected Deliverables for All Projects**: A report outlining the problem, what was done and why, data sources used, technical details of analysis/modelling (e.g. models used and why), results and interpretation of the results, recommendations for action, limitations of current work and expectations for future work.
 
-## Project 1: Agricultural Productivity & Climate Resilience Dashboard
+## Project 1: Agricultural Productivity and Climate Resilience Dashboard
 
 **Problem Statement:** Climate change threatens food security across East Africa. 
 Analyze how weather patterns affect crop yields and identify resilient farming regions.
@@ -171,9 +171,9 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 **Problem Statement:** Predict food crises before they occur to enable timely interventions.
 
 **Data Sources:**
-- FEWS NET Data Portal: 
-- FAO Food Price Monitoring: 
-- ACLED Conflict Data: 
+- FEWS NET Data Portal: [US Gov website](https://www.google.com/search?client=safari&rls=en&q=FEWS+NET+Data+Portal&ie=UTF-8&oe=UTF-8)
+- FAO Food Price Monitoring: [FAO Link](https://www.fao.org/giews/food-prices/home/en/)
+- ACLED Conflict Data: [Armed Conflict data link](https://acleddata.com)
 - CHIRPS Rainfall Data: [Portal](https://www.chc.ucsb.edu/data/chirps)
 
 **Deliverables:**
@@ -197,9 +197,9 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 **Problem Statement:** Accelerate renewable energy adoption by identifying high-potential locations and predicting project success.
 
 **Data Sources:**
-- Global Solar Atlas / Global Wind Atlas
-- World Bank Electricity Access Database
-- NASA POWER (weather/climate data)
+- Global Solar Atlas / Global Wind Atlas: [Link](https://globalsolaratlas.info)
+- World Bank Electricity Access Database: [Access database](https://www.google.com/search?client=safari&rls=en&q=World+Bank+Electricity+Access+Database&ie=UTF-8&oe=UTF-8)
+- NASA POWER (weather/climate data): [Info link](https://power.larc.nasa.gov)
 
 **Deliverables:**
 1. Renewable energy potential maps (solar/wind/hydro)
@@ -220,10 +220,10 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 **Problem Statement:** The digital economy drives growth but develops unevenly. Track progress and predict digital transformation success.
 
 **Data Sources:**
-- ITU ICT Development Index
-- GSMA Mobile Connectivity Index
-- World Bank Digital Adoption Index
-- Google Trends API (technology adoption)
+- ITU ICT Development Index: [Index page](https://www.itu.int/en/ITU-D/Statistics/Pages/IDI/default.aspx)
+- GSMA Mobile Connectivity Index: [Index](https://www.mobileconnectivityindex.com/index.html)
+- World Bank Digital Adoption Index: [Info](https://www.worldbank.org/en/publication/wdr2016/Digital-Adoption-Index)
+- Google Trends API (technology adoption): [Info](https://trends.google.com/trends/)
 
 **Deliverables:**
 1. Digital maturity assessment framework
@@ -239,14 +239,14 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 
 ---
 
-## Project 11: Drought Resilience & Water Security Predictor
+## Project 11: Drought Resilience and Water Security Predictor
 
 **Problem Statement:** Water scarcity affects millions. Predict water stress and identify communities needing urgent intervention.
 
 **Data Sources:**
-- USGS FEWS NET Water Point Data
-- MODIS Normalized Difference Vegetation Index (NDVI)
-- CHIRPS Rainfall Data
+- USGS FEWS NET Water Point Data: [Water point portal](https://earlywarning.usgs.gov/fews/waterpoint/)
+- MODIS Normalized Difference Vegetation Index (NDVI): [MODIS NVDI](https://modis.gsfc.nasa.gov/data/dataprod/mod13.php)
+- CHIRPS Rainfall Data: [Portal](https://www.chc.ucsb.edu/data/chirps)
 - Water Point Data Exchange (WPdx)
 
 **Deliverables:**
