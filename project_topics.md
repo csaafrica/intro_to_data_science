@@ -247,7 +247,7 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 - USGS FEWS NET Water Point Data: [Water point portal](https://earlywarning.usgs.gov/fews/waterpoint/)
 - MODIS Normalized Difference Vegetation Index (NDVI): [MODIS NVDI](https://modis.gsfc.nasa.gov/data/dataprod/mod13.php)
 - CHIRPS Rainfall Data: [Portal](https://www.chc.ucsb.edu/data/chirps)
-- Water Point Data Exchange (WPdx)
+- Water Point Data Exchange (WPdx): [Link](https://www.waterpointdata.org)
 
 **Deliverables:**
 1. Water stress prediction model (3-6 month horizon)
@@ -269,10 +269,10 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 **Problem Statement:** The informal sector employs 80%+ but lacks protection and growth potential. Identify formalization opportunities.
 
 **Data Sources:**
-- ILO Informal Economy Database
-- World Bank Enterprise Surveys
-- Mobile money transaction data (aggregated)
-- OpenStreetMap (market/business locations)
+- ILO Informal Economy Database: [Stats on informal economy](https://ilostat.ilo.org/topics/informality/)
+- World Bank Enterprise Surveys: [Data portal](https://www.enterprisesurveys.org/en/data)
+- Mobile money transaction data (aggregated): [Kenya](https://www.centralbank.go.ke/national-payments-system/mobile-payments/)
+- OpenStreetMap (market/business locations): 
 
 **Deliverables:**
 1. Informal sector size estimator by region/sector
@@ -294,9 +294,9 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 **Problem Statement:** Intra-African trade remains below 20% despite AfCFTA. Identify bottlenecks and predict trade flow improvements.
 
 **Data Sources:**
-- UN COMTRADE Database: https://comtrade.un.org/
-- World Bank Trading Across Borders data
-- AfDB Regional Integration Index
+- UN COMTRADE Database: [COMTRADE](https://comtrade.un.org/)
+- World Bank Trading Across Borders data: [Archive](https://archive.doingbusiness.org/en/data/exploretopics/trading-across-borders)
+- AfDB Regional Integration Index: [Info](https://arii.uneca.org)
 - Google Maps API (border crossing times)
 
 **Deliverables:**
