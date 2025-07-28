@@ -239,6 +239,81 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 
 ---
 
+## Project 11: Drought Resilience & Water Security Predictor
+
+**Problem Statement:** Water scarcity affects millions. Predict water stress and identify communities needing urgent intervention.
+
+**Data Sources:**
+- USGS FEWS NET Water Point Data
+- MODIS Normalized Difference Vegetation Index (NDVI)
+- CHIRPS Rainfall Data
+- Water Point Data Exchange (WPdx)
+
+**Deliverables:**
+1. Water stress prediction model (3-6 month horizon)
+2. Community vulnerability index and map
+3. Water point functionality classifier
+4. Drought intervention priority ranker
+
+**Technical Requirements:**
+- Engineer lagged features (rainfall, NDVI values)
+- Logistic regression for functionality classification
+- Random Forest for vulnerability prediction
+- Gradient boosting for water stress levels
+- Real-time drought monitoring dashboard
+
+---
+
+## Project 12: Informal Economy Formalization Potential Assessor
+
+**Problem Statement:** The informal sector employs 80%+ but lacks protection and growth potential. Identify formalization opportunities.
+
+**Data Sources:**
+- ILO Informal Economy Database
+- World Bank Enterprise Surveys
+- Mobile money transaction data (aggregated)
+- OpenStreetMap (market/business locations)
+
+**Deliverables:**
+1. Informal sector size estimator by region/sector
+2. Formalization readiness classifier
+3. Tax revenue potential calculator
+4. Formalization pathway recommendation engine
+
+**Technical Requirements:**
+- Geospatial clustering for market identification
+- Logistic regression for formalization likelihood
+- Linear regression for revenue projections
+- Category encoding for business types
+- Interactive policy simulation tool
+
+---
+
+## Project 13: Cross-Border Trade Flow Optimizer
+
+**Problem Statement:** Intra-African trade remains below 20% despite AfCFTA. Identify bottlenecks and predict trade flow improvements.
+
+**Data Sources:**
+- UN COMTRADE Database: https://comtrade.un.org/
+- World Bank Trading Across Borders data
+- AfDB Regional Integration Index
+- Google Maps API (border crossing times)
+
+**Deliverables:**
+1. Trade flow visualization network for East Africa
+2. Regression model predicting bilateral trade volumes
+3. Border efficiency classifier (efficient/moderate/inefficient)
+4. Trade corridor optimization recommendations
+
+**Technical Requirements:**
+- Network analysis with networkx
+- Linear regression for trade flow prediction
+- Random Forest for border classification
+- Interactive Sankey diagrams for trade flows
+- API integration for real-time border data
+
+---
+
 ## General Project Guidelines
 
 **Required Python Libraries:**
