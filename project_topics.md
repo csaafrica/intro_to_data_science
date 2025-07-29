@@ -2,7 +2,7 @@
 
 **Expected Deliverables for All Projects**: A report outlining the problem, what was done and why, data sources used, technical details of analysis/modelling (e.g. models used and why), results and interpretation of the results, recommendations for action, limitations of current work and expectations for future work.
 
-## Project 1: Agricultural Productivity & Climate Resilience Dashboard
+## Project 1: Agricultural Productivity and Climate Resilience Dashboard [Group 6]
 
 **Problem Statement:** Climate change threatens food security across East Africa. 
 Analyze how weather patterns affect crop yields and identify resilient farming regions.
@@ -26,7 +26,7 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 
 ---
 
-## Project 2: Healthcare Access Inequality Predictor
+## Project 2: Healthcare Access Inequality Predictor [Group 1]
 
 **Problem Statement:** Identify underserved populations and predict healthcare access challenges to guide health facility placement.
 
@@ -49,7 +49,7 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 
 ---
 
-## Project 3: Mobile Money Financial Inclusion Analyzer
+## Project 3: Mobile Money Financial Inclusion Analyzer [Groups 7, 10]
 
 **Problem Statement:** Despite M-Pesa's success, financial exclusion persists. Identify barriers and predict adoption likelihood.
 
@@ -72,7 +72,7 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 
 ---
 
-## Project 4: Education Quality and Outcome Predictor
+## Project 4: Education Quality and Outcome Predictor [Groups 9, 15]
 
 **Problem Statement:** Education quality varies drastically. Predict student performance and identify factors affecting learning outcomes.
 
@@ -118,7 +118,7 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 
 ---
 
-## Project 6: Climate-Smart Agriculture Recommender
+## Project 6: Climate-Smart Agriculture Recommender [Groups 4, 11]
 
 **Problem Statement:** Farmers need guidance on crop selection as climate patterns shift. Build a recommendation system for climate-appropriate crops.
 
@@ -142,7 +142,7 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 
 ---
 
-## Project 7: Maternal and Child Health Risk Stratification
+## Project 7: Maternal and Child Health Risk Stratification [Group 13]
 
 **Problem Statement:** Reduce maternal and infant mortality by identifying high-risk pregnancies early.
 
@@ -166,14 +166,14 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 
 ---
 
-## Project 8: Food Security Early Warning System
+## Project 8: Food Security Early Warning System [Groups 8, 17]
 
 **Problem Statement:** Predict food crises before they occur to enable timely interventions.
 
 **Data Sources:**
-- FEWS NET Data Portal: 
-- FAO Food Price Monitoring: 
-- ACLED Conflict Data: 
+- FEWS NET Data Portal: [US Gov website](https://www.google.com/search?client=safari&rls=en&q=FEWS+NET+Data+Portal&ie=UTF-8&oe=UTF-8)
+- FAO Food Price Monitoring: [FAO Link](https://www.fao.org/giews/food-prices/home/en/)
+- ACLED Conflict Data: [Armed Conflict data link](https://acleddata.com)
 - CHIRPS Rainfall Data: [Portal](https://www.chc.ucsb.edu/data/chirps)
 
 **Deliverables:**
@@ -192,14 +192,14 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 
 ---
 
-## Project 9: Renewable Energy Potential Analyzer
+## Project 9: Renewable Energy Potential Analyzer [Group 12]
 
 **Problem Statement:** Accelerate renewable energy adoption by identifying high-potential locations and predicting project success.
 
 **Data Sources:**
-- Global Solar Atlas / Global Wind Atlas
-- World Bank Electricity Access Database
-- NASA POWER (weather/climate data)
+- Global Solar Atlas / Global Wind Atlas: [Link](https://globalsolaratlas.info)
+- World Bank Electricity Access Database: [Access database](https://www.google.com/search?client=safari&rls=en&q=World+Bank+Electricity+Access+Database&ie=UTF-8&oe=UTF-8)
+- NASA POWER (weather/climate data): [Info link](https://power.larc.nasa.gov)
 
 **Deliverables:**
 1. Renewable energy potential maps (solar/wind/hydro)
@@ -215,15 +215,15 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 
 ---
 
-## Project 10: Digital Economy Growth Tracker
+## Project 10: Digital Economy Growth Tracker [Group 2]
 
 **Problem Statement:** The digital economy drives growth but develops unevenly. Track progress and predict digital transformation success.
 
 **Data Sources:**
-- ITU ICT Development Index
-- GSMA Mobile Connectivity Index
-- World Bank Digital Adoption Index
-- Google Trends API (technology adoption)
+- ITU ICT Development Index: [Index page](https://www.itu.int/en/ITU-D/Statistics/Pages/IDI/default.aspx)
+- GSMA Mobile Connectivity Index: [Index](https://www.mobileconnectivityindex.com/index.html)
+- World Bank Digital Adoption Index: [Info](https://www.worldbank.org/en/publication/wdr2016/Digital-Adoption-Index)
+- Google Trends API (technology adoption): [Info](https://trends.google.com/trends/)
 
 **Deliverables:**
 1. Digital maturity assessment framework
@@ -239,15 +239,15 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 
 ---
 
-## Project 11: Drought Resilience & Water Security Predictor
+## Project 11: Drought Resilience and Water Security Predictor
 
 **Problem Statement:** Water scarcity affects millions. Predict water stress and identify communities needing urgent intervention.
 
 **Data Sources:**
-- USGS FEWS NET Water Point Data
-- MODIS Normalized Difference Vegetation Index (NDVI)
-- CHIRPS Rainfall Data
-- Water Point Data Exchange (WPdx)
+- USGS FEWS NET Water Point Data: [Water point portal](https://earlywarning.usgs.gov/fews/waterpoint/)
+- MODIS Normalized Difference Vegetation Index (NDVI): [MODIS NVDI](https://modis.gsfc.nasa.gov/data/dataprod/mod13.php)
+- CHIRPS Rainfall Data: [Portal](https://www.chc.ucsb.edu/data/chirps)
+- Water Point Data Exchange (WPdx): [Link](https://www.waterpointdata.org)
 
 **Deliverables:**
 1. Water stress prediction model (3-6 month horizon)
@@ -269,10 +269,10 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 **Problem Statement:** The informal sector employs 80%+ but lacks protection and growth potential. Identify formalization opportunities.
 
 **Data Sources:**
-- ILO Informal Economy Database
-- World Bank Enterprise Surveys
-- Mobile money transaction data (aggregated)
-- OpenStreetMap (market/business locations)
+- ILO Informal Economy Database: [Stats on informal economy](https://ilostat.ilo.org/topics/informality/)
+- World Bank Enterprise Surveys: [Data portal](https://www.enterprisesurveys.org/en/data)
+- Mobile money transaction data (aggregated): [Kenya](https://www.centralbank.go.ke/national-payments-system/mobile-payments/)
+- OpenStreetMap (market/business locations): 
 
 **Deliverables:**
 1. Informal sector size estimator by region/sector
@@ -294,9 +294,9 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 **Problem Statement:** Intra-African trade remains below 20% despite AfCFTA. Identify bottlenecks and predict trade flow improvements.
 
 **Data Sources:**
-- UN COMTRADE Database: https://comtrade.un.org/
-- World Bank Trading Across Borders data
-- AfDB Regional Integration Index
+- UN COMTRADE Database: [COMTRADE](https://comtrade.un.org/)
+- World Bank Trading Across Borders data: [Archive](https://archive.doingbusiness.org/en/data/exploretopics/trading-across-borders)
+- AfDB Regional Integration Index: [Info](https://arii.uneca.org)
 - Google Maps API (border crossing times)
 
 **Deliverables:**
