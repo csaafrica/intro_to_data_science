@@ -49,7 +49,7 @@ Analyze how weather patterns affect crop yields and identify resilient farming r
 
 ---
 
-## Project 3: Mobile Money Financial Inclusion Analyzer [Groups 7, 10]
+## Project 3: Mobile Money Financial Inclusion Analyzer [Groups 10]
 
 **Problem Statement:** Despite M-Pesa's success, financial exclusion persists. Identify barriers and predict adoption likelihood.
 
