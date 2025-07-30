@@ -20,7 +20,8 @@ Regression models predict continuous numerical values. Here are the key metrics 
     * **Interpretation**: RMSE is the square root of MSE, bringing the metric back to the same units as the target variable. This makes it more interpretable than MSE. Like MSE, it penalizes larger errors. Lower values indicate better performance.
 
 4.  **R-squared ($R^2$) or Coefficient of Determination**:
-    * **Formula**: $R^2 = 1 - \frac{\sum_{i=1}^{N} (y_i - \hat{y}_i)^2}{\sum_{i=1}^{N} (y_i - \bar{y})^2} = 1 - \frac{\text{SS}_{\text{res}}}{\text{SS}_{\text{tot}}}$ 
+    * **Formula**:
+      $R^2 = 1 - \frac{\sum_{i=1}^{N} (y_i - \hat{y}_i)^2}{\sum_{i=1}^{N} (y_i - \bar{y})^2} = 1 - \frac_{\text{SS}_{\text_{res}}}{\text_{SS}_{\text_{tot}}}$
         * $\text{SS}_{\text{res}}$ is the sum of squared residuals (errors).
         * $\text{SS}_{\text{tot}}$ is the total sum of squares (variance of the actual values).
         * $\bar{y}$ is the mean of the actual values.
